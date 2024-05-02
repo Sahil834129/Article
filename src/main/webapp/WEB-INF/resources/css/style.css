@@ -1,0 +1,206 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	background-color: rgb(13, 15, 41);
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.left {
+	margin-top: 20px;
+	margin-left: 25px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+
+.right {
+	margin-top: 20px;
+	margin-right: 25px;
+	font-weight: bold;
+}
+.right{
+	text-decoration: none;
+}
+.save-btn {
+	margin-right: 25px;
+	padding: 8px 14px;
+	font-size: medium;
+	border: none;
+	background-color: rgb(153, 239, 153);
+	color: white;
+	border-radius: 5px;
+}
+
+.save-btn i {
+	margin-right: 10px;
+}
+
+.list-btn {
+	padding: 8px 14px;
+	font-size: medium;
+	border: none;
+	background-color: rgb(52, 71, 105);
+	color: white;
+	border-radius: 5px;
+}
+
+.list-btn i {
+	margin-right: 10px;
+}
+
+.massage{
+	color: white;
+}
+.form {
+	margin-top: 60px;
+	margin-left: 25px;
+}
+
+.row-1 {
+	display: flex;
+}
+
+.title label {
+	color: white;
+}
+
+.title input {
+	margin-top: 10px;
+	padding: 5px 70px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+.search {
+	margin-left: 45px;
+}
+
+.search label {
+	color: white;
+}
+
+.search-input {
+	margin-top: 10px;
+	padding: 5px 70px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+.public-url {
+	margin-left: 45px;
+}
+
+.public-url label {
+	color: white;
+}
+
+.public-url input {
+	margin-top: 10px;
+	padding: 5px 70px;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.row-2 {
+	margin-top: 25px;
+	display: flex;
+}
+
+.article-date label {
+	color: white;
+}
+
+.article-date input {
+	margin-top: 10px;
+	padding: 5px 110px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+.select label {
+	color: white;
+}
+
+.select {
+	margin-top: 5px;
+	padding: 5px 46px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+.expiry-date {
+	margin-left: 45px;
+}
+
+.expiry-date label {
+	color: white;
+}
+
+.expiry-date input {
+	margin-top: 10px;
+	padding: 5px 110px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+.row-3 {
+	margin-top: 25px;
+	display: flex;
+}
+
+.description label {
+	color: white;
+}
+
+.description input {
+	margin-top: 10px;
+	width: 385px;
+	height: 225px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+.image-file {
+	margin-left: 45px;
+}
+
+.image-file label {
+	color: white;
+}
+
+.image-file input {
+	margin-top: 10px;
+	width: 385px;
+	height: 225px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+.description-text {
+	margin-left: 27px;
+	margin-top: 10px;
+	color: white;
+}
+
+.button-sl {
+	display: flex;
+	margin-left: 27px;
+	margin-top: 40px;
+}
+
+.text-mandatory {
+	margin-top: 15px;
+	margin-left: 40px;
+	color: white;
+	font-size: larger;
+}
